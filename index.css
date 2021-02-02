@@ -3,6 +3,10 @@ margin-left: 200px;
 margin-right:200px;
 }
 
+img {
+width: 25em;
+}
+
 pre {
     font-size:16px;
     white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
