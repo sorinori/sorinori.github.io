@@ -1,2 +1,4 @@
 # sorinori.github.io
-SoriNori Podcast Website
+Sori Nori Podcast Website https://sorinori.github.io/
+
+
