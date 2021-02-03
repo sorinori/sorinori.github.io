@@ -6,6 +6,8 @@ function change_lang() {
     tmp = 'en';
     $('#li1').css('text-align','left');
     $('#li2').css('text-align','left'); 
+    $('#li1').css('direction','ltr');
+    $('#li2').css('direction','ltr'); 
     $("#text_title_1").html("Music in Korea");
     $("#text_title_2").html("Music in Iran");
   }
@@ -14,6 +16,8 @@ function change_lang() {
     tmp = 'kr';
     $('#li1').css('text-align','left');
     $('#li2').css('text-align','left'); 
+    $('#li1').css('direction','ltr');
+    $('#li2').css('direction','ltr');
     $("#text_title_1").html("한국의 음악");
     $("#text_title_2").html("이란의 음악");
   }
@@ -22,6 +26,8 @@ function change_lang() {
    tmp = 'fa';
    $('#li1').css('text-align','right');
    $('#li2').css('text-align','right');
+   $('#li1').css('direction','rtl');
+   $('#li2').css('direction','rtl'); 
    $("#text_title_1").html('موسیقی در کره');
    $("#text_title_2").html('موسیقی در ایران');
   }
