@@ -1,15 +1,24 @@
 function change_lang() {
   var x = document.getElementById("langselect").value;
-  var tmp = 'en'
+  var tmp = 'en';
+
+  if(x == "English") {
+    tmp = 'en';
+    $("#text_title_1").html("Music in Korea");
+    $("#text_title_2").html("Music in Iran");
+  }
+
   if(x == "Korean") {
     tmp = 'kr';
+     
+    $("#text_title_1").html("한국의 음악");
+    $("#text_title_2").html("이란의 음악");
   }
   
   if(x == "Persian") {
    tmp = 'fa';
    $("#text_title_1").html('موسیقی در کره');
    $("#text_title_2").html('موسیقی در ایران');
-   
   }
   
   
