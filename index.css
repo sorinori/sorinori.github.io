@@ -7,6 +7,10 @@ img {
 width: 25em;
 }
 
+button {
+  font-size: 24px;
+}
+
 pre {
     font-size:18px;
     font-family: Arial;
