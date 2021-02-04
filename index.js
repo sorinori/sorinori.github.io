@@ -1,5 +1,4 @@
-function change_lang() {
-  var x = document.getElementById("langselect").value;
+function change_lang(x) {
   var tmp = 'en';
 
   if(x == "English") {
