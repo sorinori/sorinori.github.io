@@ -31,6 +31,16 @@ function change_lang(x) {
    $("#text_title_2").html('موسیقی در ایران');
   }
   
+  if(x == "Spanish") {
+   tmp = 'es';
+   $('#li1').css('text-align','left');
+   $('#li2').css('text-align','left');
+   $('#li1').css('direction','ltr');
+   $('#li2').css('direction','ltr'); 
+   $("#text_title_1").html('Música en Corea');
+   $("#text_title_2").html('Música en Iran');
+  }
+  
   
   $.get('text1_' + tmp + '.txt', function(data) {
    $('#text1').html(data);
