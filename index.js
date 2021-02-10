@@ -41,6 +41,16 @@ function change_lang(x) {
    $("#text_title_2").html('Música en Iran');
   }
   
+  if(x == "German") {
+   tmp = 'de';
+   $('#li1').css('text-align','left');
+   $('#li2').css('text-align','left');
+   $('#li1').css('direction','ltr');
+   $('#li2').css('direction','ltr'); 
+   $("#text_title_1").html('Musik in Korea');
+   $("#text_title_2").html('Musik in Iran');
+  }
+  
   
   $.get('text1_' + tmp + '.txt', function(data) {
    $('#text1').html(data);
