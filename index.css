@@ -21,6 +21,10 @@ pre {
     word-wrap: break-word; /* IE 5.5+ */
 }
 
+a {
+  font-size:18px;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     margin-left:10px;
