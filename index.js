@@ -7,8 +7,9 @@ function change_lang(x) {
     $('#li2').css('text-align','left'); 
     $('#li1').css('direction','ltr');
     $('#li2').css('direction','ltr'); 
-    $("#text_title_1").html("Music in Korea");
-    $("#text_title_2").html("Music in Iran");
+    $("#text_title_1").html("Music Talk with Jinjoo from South Korea");
+    $("#text_title_2").html("Music Takk with Ali from Iran");
+    $("#text_title_3").html("Music Takk with Brian from the US");
   }
 
   if(x == "Korean") {
@@ -27,8 +28,9 @@ function change_lang(x) {
    $('#li2').css('text-align','right');
    $('#li1').css('direction','rtl');
    $('#li2').css('direction','rtl'); 
-   $("#text_title_1").html('موسیقی در کره');
-   $("#text_title_2").html('موسیقی در ایران');
+   $("#text_title_1").html('صحبت موسیقایی با جینجو از کره');
+   $("#text_title_2").html('صحبت موسیقایی با علی از ایران');
+   $("#text_title_3").html('صحبت موسیقایی با برایان از آمریکا');
   }
   
   if(x == "Spanish") {
@@ -37,8 +39,9 @@ function change_lang(x) {
    $('#li2').css('text-align','left');
    $('#li1').css('direction','ltr');
    $('#li2').css('direction','ltr'); 
-   $("#text_title_1").html('Música en Corea');
-   $("#text_title_2").html('Música en Iran');
+   $("#text_title_1").html('Charla musical con Jinjoo, de Corea del Sur');
+   $("#text_title_2").html('Charla musical con Ali, de Iran');
+   $("#text_title_3").html('Charla musical con Brian, de US');
   }
   
   if(x == "German") {
@@ -47,8 +50,9 @@ function change_lang(x) {
    $('#li2').css('text-align','left');
    $('#li1').css('direction','ltr');
    $('#li2').css('direction','ltr'); 
-   $("#text_title_1").html('Musik in Korea');
-   $("#text_title_2").html('Musik in Iran');
+   $("#text_title_1").html('Musikgespräch mit Jinjoo aus Südkorea');
+   $("#text_title_2").html('Musikgespräch mit Ali aus Iran');
+   $("#text_title_3").html('Musikgespräch mit Brian aus vereinigte staaten');
   }
   
   
