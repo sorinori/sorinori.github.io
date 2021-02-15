@@ -77,7 +77,7 @@ $.get('text2_en.txt', function(data) {
    $('#text2').html(data);
 }, 'text');
 $.get('text3_en.txt', function(data) {
-   $('#text2').html(data);
+   $('#text3').html(data);
 }, 'text');
 
 
