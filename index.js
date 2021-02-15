@@ -28,7 +28,7 @@ function change_lang(x) {
    $('#li2').css('text-align','right');
    $('#li1').css('direction','rtl');
    $('#li2').css('direction','rtl'); 
-   $("#text_title_1").html('صحبت موسیقایی با جینجو از کره');
+   $("#text_title_1").html('صحبت موسیقایی با جینجو از کره جنوبی');
    $("#text_title_2").html('صحبت موسیقایی با علی از ایران');
    $("#text_title_3").html('صحبت موسیقایی با برایان از آمریکا');
   }
