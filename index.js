@@ -32,6 +32,7 @@ function change_lang(x) {
    tmp = 'fa';
    $('#li1').css('text-align','right');
    $('#li2').css('text-align','right');
+   $('#li3').css('text-align','right');
    $('#li1').css('direction','rtl');
    $('#li2').css('direction','rtl'); 
    $('#li3').css('direction','rtl');
