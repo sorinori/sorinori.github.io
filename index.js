@@ -39,7 +39,8 @@ function change_lang(x) {
     $("#item" + i + "p").html(titles[x][i-1]);
 
     $.get('text' + i + '_' + tmp + '.txt', function(data) {
-     $('#text' + i).html(data);
+      console.log(data);
+      $('#text' + i).html(data);
     }, 'text');
   }
 }
