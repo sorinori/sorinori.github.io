@@ -40,6 +40,7 @@ function change_lang(x) {
 
     $.get('text' + i + '_' + tmp + '.txt', function(data) {
       console.log(data);
+      console.log(i);
       $('#text' + i).html(data);
     }, 'text');
   }
