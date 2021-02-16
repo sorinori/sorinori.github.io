@@ -34,7 +34,7 @@ function change_lang(x) {
   tmp = short_names[x];
   for (var i=1;i<4;i++) {
     $('#li' + i).css('text-align', aligns[x]);
-    $('#li' + i).css('direction', directions[x][i-1]);
+    $('#li' + i).css('direction', directions[x]);
     $("#text_title_" + i).html(titles[x][i-1]);
     $("#item" + i + "p").html(titles[x][i-1]);
 
@@ -42,6 +42,7 @@ function change_lang(x) {
       url: 'text' + i + '_' + tmp + '.txt',
       async: false,
       success: function(data) {
+        $('#text' + i).css('direction',directions[x]);
         $('#text' + i).html(data);
       }
     });
