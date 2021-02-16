@@ -1,3 +1,10 @@
+var data = {
+  'English' : ["Music Talk with Jinjoo from South Korea","Music Takk with Ali from Iran","Music Takk with Brian from the US"],
+  'Korean'  : ["한국의 음악", "이란의 음악", "이란의 음악"],
+  'Spanish' : [],
+  'German'  : []
+};
+
 function change_lang(x) {
   var tmp = 'en';
 
