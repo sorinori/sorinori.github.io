@@ -32,7 +32,7 @@ var short_names = {
 
 function change_lang(x) {
   tmp = short_names[x];
-  for (int i=1;i<4;i++) {
+  for (var i=1;i<4;i++) {
     $('#li' + i).css('text-align', aligns[x]);
     $('#li' + i).css('direction', directions[x][i-1]);
     $("#text_title_" + i).html(titles[x][i-1]);
