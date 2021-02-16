@@ -1,7 +1,7 @@
 var titles = {
   'English' : ["Music Talk with Jinjoo from South Korea","Music Takk with Ali from Iran","Music Takk with Brian from the US"],
   'Korean'  : ["한국의 음악", "이란의 음악", "이란의 음악"],
-  'Persian' : ['صحبت موسیقایی با جینجو از کره جنوبی', 'صحبت موسیقایی با علی از ایران', 'صحبت موسیقایی با برایان از آمریکا'];
+  'Persian' : ['صحبت موسیقایی با جینجو از کره جنوبی', 'صحبت موسیقایی با علی از ایران', 'صحبت موسیقایی با برایان از آمریکا'],
   'Spanish' : ['Charla musical con Jinjoo, de Corea del Sur', 'Charla musical con Ali, de Iran', 'Charla musical con Brian, de US'],
   'German'  : ['Musikgespräch mit Jinjoo aus Südkorea', 'Musikgespräch mit Ali aus Iran', 'Musikgespräch mit Brian aus vereinigte Staaten']
 };
