@@ -38,11 +38,13 @@ function change_lang(x) {
     $("#text_title_" + i).html(titles[x][i-1]);
     $("#item" + i + "p").html(titles[x][i-1]);
 
-    $.get('text' + i + '_' + tmp + '.txt', function(data) {
-      console.log(data);
-      console.log(i);
-      $('#text' + i).html(data);
-    }, 'text');
+    $.ajax({
+      url: 'text' + i + '_' + tmp + '.txt',
+      async: false,
+      success: function(data) {
+        $('#text' + i).html(data);
+      }
+    });
   }
 }
 
