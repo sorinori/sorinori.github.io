@@ -5,6 +5,7 @@ function change_lang(x) {
     tmp = 'en';
     $('#li1').css('text-align','left');
     $('#li2').css('text-align','left'); 
+    $('#li3').css('text-align','left');
     $('#li1').css('direction','ltr');
     $('#li2').css('direction','ltr'); 
     $('#li3').css('direction','ltr');
@@ -20,6 +21,7 @@ function change_lang(x) {
     tmp = 'kr';
     $('#li1').css('text-align','left');
     $('#li2').css('text-align','left'); 
+    $('#li3').css('text-align','left');
     $('#li1').css('direction','ltr');
     $('#li2').css('direction','ltr');
     $('#li3').css('direction','ltr');
@@ -48,6 +50,7 @@ function change_lang(x) {
    tmp = 'es';
    $('#li1').css('text-align','left');
    $('#li2').css('text-align','left');
+   $('#li3').css('text-align','left');
    $('#li1').css('direction','ltr');
    $('#li2').css('direction','ltr'); 
    $('#li3').css('direction','ltr'); 
@@ -63,6 +66,7 @@ function change_lang(x) {
    tmp = 'de';
    $('#li1').css('text-align','left');
    $('#li2').css('text-align','left');
+   $('#li3').css('text-align','left');
    $('#li1').css('direction','ltr');
    $('#li2').css('direction','ltr'); 
    $('#li3').css('direction','ltr'); 
