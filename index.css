@@ -1,14 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
+
 body {
 margin-left: 200px;
 margin-right:200px;
+font-family: 'Source Sans Pro', sans-serif;
 }
 
 img {
 width: 25em;
 }
 
-button {
-  font-size: 20px;
+button.lang {
+  font-size: 18px;
+  color: #444543;
+  border-color: transparent;
+  border-radius: 20px;
+  padding: 3px 15px;
+  margin-right: 15px;
+}
+
+button.lang:hover, button.lang:focus{
+    color: #232422;
+    font-weight: bold;
+}
+
+.lang.eng {
+    background-color: #d3d9f0;
+}
+
+.lang.eng:hover, .lang.eng:focus {
+    background-color: #a4b0e0;
+}
+
+.lang.kor {
+    background-color: #daf0e8;
+}
+
+.lang.kor:hover, .lang.kor:focus {
+    background-color: #88dbbd;
+}
+
+.lang.far {
+    background-color: #E2F0CB;
+}
+
+.lang.far:hover, .lang.far:focus {
+    background-color: #c1e880;
+}
+
+.lang.esp {
+    background-color: #fae4d4;
+}
+
+.lang.esp:hover, .lang.esp:focus {
+    background-color: #e8a676;
+}
+
+.lang.ger {
+    background-color: #fcdbd9;
+}
+
+.lang.ger:hover, .lang.ger:focus {
+    background-color: #f2a7a2;
+}
+
+.lang > img{
+    height: 20px;
+    width: 20px;
+    margin-top: -3px;
+    margin-right: 7px;
 }
 
 pre {

@@ -1,5 +1,7 @@
 <html>
   <head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Sori Nori"/>
     <meta property="og:url" content="https://sorinori.github.io"/>
@@ -23,11 +25,11 @@
    <link rel="stylesheet" href="index.css"> 
    <img src="logo.jpg" width="25em">
   <div style="margin-bottom:10px">
-  <button onclick='change_lang("English")'>English</button>
-  <button onclick='change_lang("Korean")'>한국어</button>
-  <button onclick='change_lang("Persian")'>فارسی</button>
-  <button onclick='change_lang("Spanish")'>Español</button>
-  <button onclick='change_lang("German")'>Deutsch</button>
+    <button class="lang eng" onclick='change_lang("English")'><img src="img/united-kingdom.svg">English</button>
+  <button class="lang kor" onclick='change_lang("Korean")'><img src="img/south-korea.svg">한국어</button>
+  <button class="lang far" onclick='change_lang("Persian")'><img src="img/iran.svg">فارسی<</button>
+  <button class="lang esp" onclick='change_lang("Spanish")'><img src="img/spain.svg">Español</button>
+  <button class="lang ger"onclick='change_lang("German")'><img src="img/germany.svg">Deutsch</button>
   </div>
   <ul style="font-size:18px" id="list_summary">
     <li><a href="#li1" id="item1p">Music Talk with Jinjoo from South Korea</a></li>
@@ -56,5 +58,6 @@
     </li>
   </ul>
   <script src="index.js"></script>
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 </body>
 </html>
