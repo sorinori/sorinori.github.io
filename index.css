@@ -20,7 +20,7 @@ button.lang {
   margin-bottom: 5px;
 }
 
-button.lang:hover, button.lang:focus{
+button.lang:hover, button.lang:focus, button.lang.selected{
     color: #232422;
     font-weight: bold;
 }
