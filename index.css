@@ -37,7 +37,7 @@ button.lang:hover, button.lang:focus{
     background-color: #daf0e8;
 }
 
-.lang.kr:hover, .lang.kr:focus, , .lang.kr.selected {
+.lang.kr:hover, .lang.kr:focus, .lang.kr.selected {
     background-color: #88dbbd;
 }
 
@@ -45,7 +45,7 @@ button.lang:hover, button.lang:focus{
     background-color: #E2F0CB;
 }
 
-.lang.fa:hover, .lang.fa:focus, , .lang.fa.selected {
+.lang.fa:hover, .lang.fa:focus, .lang.fa.selected {
     background-color: #c1e880;
 }
 
