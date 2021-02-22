@@ -31,11 +31,10 @@ var short_names = {
 };
 
 function change_lang(x) {
-  for(var i=0;i<short_names.length();i++) 
-    $('.lang.eng').removeClass('.lang.' + short_names[i] + '.selected');
+  $('.lang').each(function(x){$(this).removeClass('selected');});
   
   tmp = short_names[x];
-  $('.lang.eng').addClass('.lang.'+tmp+'.selected);
+  $('.lang.'+tmp).addClass('selected);
   for (var i=1;i<4;i++) {
     $('#li' + i).css('text-align', aligns[x]);
     $('#li' + i).css('direction', directions[x]);
