@@ -34,7 +34,7 @@ function change_lang(x) {
   $('.lang').each(function(x){$(this).removeClass('selected');});
   
   tmp = short_names[x];
-  $('.lang.'+tmp).addClass('selected);
+  $('.lang.'+tmp).addClass('selected');
   for (var i=1;i<4;i++) {
     $('#li' + i).css('text-align', aligns[x]);
     $('#li' + i).css('direction', directions[x]);
