@@ -24,43 +24,43 @@ button.lang:hover, button.lang:focus{
     font-weight: bold;
 }
 
-.lang.eng {
+.lang.en {
     background-color: #d3d9f0;
 }
 
-.lang.eng:hover, .lang.eng:focus {
+.lang.en:hover, .lang.en:focus, .lang.en.selected {
     background-color: #a4b0e0;
 }
 
-.lang.kor {
+.lang.kr {
     background-color: #daf0e8;
 }
 
-.lang.kor:hover, .lang.kor:focus {
+.lang.kr:hover, .lang.kr:focus, , .lang.kr.selected {
     background-color: #88dbbd;
 }
 
-.lang.far {
+.lang.fa {
     background-color: #E2F0CB;
 }
 
-.lang.far:hover, .lang.far:focus {
+.lang.fa:hover, .lang.fa:focus, , .lang.fa.selected {
     background-color: #c1e880;
 }
 
-.lang.esp {
+.lang.es {
     background-color: #fae4d4;
 }
 
-.lang.esp:hover, .lang.esp:focus {
+.lang.es:hover, .lang.es:focus, .lang.es.selected {
     background-color: #e8a676;
 }
 
-.lang.ger {
+.lang.de {
     background-color: #fcdbd9;
 }
 
-.lang.ger:hover, .lang.ger:focus {
+.lang.de:hover, .lang.de:focus, .lang.de.selected {
     background-color: #f2a7a2;
 }
 
